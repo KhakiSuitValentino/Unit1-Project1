@@ -1,0 +1,24 @@
+html {
+    background-color: slategray;
+}
+
+body {
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.prompt {
+    font-family: 'Codystar', cursive;
+
+    box-sizing: border-box;
+    width: 40vh;
+    height: 16vh;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+/* 
+font-family: 'Codystar', cursive;
+font-family: 'Gruppo', cursive; */

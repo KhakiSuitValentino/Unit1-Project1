@@ -3,13 +3,25 @@
 Pitch: 
 
 -In the fashion of Akai MPC style drum machines, create a "Simon Says" style game using a four column, four row grid.
+
 -This game will use audio and visual elements to guide the user through a sequenced pattern of "samples" (snippets of audio attached to each square in the grid) to test their sense of rhythm as well as their memory.
+
 -Each square in the grid of 16 squares will correspond to a specific "sample". The sample sound may be a drum, a musical chord, a musical vocalization, a miscellaneous sound effect, or any combination of those.
+
 -The user will have the option to play the game in four modes:
+
     - visual-only mode (class Simon Says style, with squares illuminating when pressed but no audio clues) 
+
     - visual-and-audio-mode (samples can be heard as well as squares illuminating when pressed)
+
     - audio-only mode (when the user becomes familiar with each sound in the grid, the computer will play a sequence of sounds and the user will play the sequence in the MPC grid)
+    
     - freestyle mode (no memory testing; the user is free to play with the grid)
+
+
+Wireframe:
+
+![Wireframe](./Wireframe.png)
 
 
 Tech:
