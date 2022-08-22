@@ -1,24 +1,217 @@
-html {
+html, body {
     background-color: slategray;
+    min-height: 100%;
 }
 
 body {
-    background-color: cornflowerblue;
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-template-rows: 1fr 4fr;
+    margin: 0;
+    padding: 0;
 }
 
-.prompt {
-    font-family: 'Codystar', cursive;
-
+.border-container {
     box-sizing: border-box;
-    width: 40vh;
-    height: 16vh;
-    border: 3px solid black;
-    border-radius: 10px;
+    width: 95%;
+    height: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+    grid-template-rows: 5vh 25vh 44vh;
+    border: 20px outset red;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #98172e, black);
 }
 
-/* 
-font-family: 'Codystar', cursive;
-font-family: 'Gruppo', cursive; */
+.grid-item-1-logo {
+    font-family: 'Monoton', cursive;
+    grid-column-end: span 3;
+    background: linear-gradient(90deg, darkgray, black);
+    color: antiquewhite;
+    font-size: 1.15em;
+    letter-spacing: 3px;
+    text-align: center;
+    text-shadow: 4px 4px crimson;
+    width: 100%;
+}
+
+.grid-item-2-display {
+    font-family: 'Codystar', cursive;
+    box-sizing: border-box;
+    grid-column-end: span 2;
+    background-color: #ff9999;
+    width: 85%;
+    height: 16vh;
+    align-self: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: bolder;
+    border: 3px double black;
+    border-radius: 30px;
+}
+
+.grid-item-3-game-mode {
+    grid-column: 1 / 2;
+    box-sizing: border-box;
+    background: linear-gradient(120deg, darkgray, maroon);
+    font-family: 'Staatliches', cursive;
+    text-align: right;
+    align-self: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 10% 22.5% 22.5% 22.5% 22.5%;
+    width: 70%;
+    height: 90%;
+    padding: 5%;
+    border: 3px outset antiquewhite;
+    border-radius: 30px;
+}
+
+#game-mode-head-text {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    text-align: right;
+    font-size: 1.25em;
+    font-weight: bolder;
+    text-decoration-line: underline;
+}
+
+#game-mode-button-1 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+#game-mode-text-1 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    text-align: right;
+    font-size: 1.25em;
+}
+
+#game-mode-button-2 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+#game-mode-text-2 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    text-align: right;
+    font-size: 1.25em;
+}
+
+#game-mode-button-3 {
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+
+#game-mode-text-3 {
+    grid-column-start: 2;
+    grid-row-start: 4;
+    text-align: right;
+    font-size: 1.25em;
+}
+
+#game-mode-button-4 {
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+
+#game-mode-text-4 {
+    grid-column-start: 2;
+    grid-row-start: 5;
+    text-align: right;
+    font-size: 1.25em;
+}
+
+.grid-item-4-sound-bank {
+    grid-column: 2 / 3;
+    position: relative;
+    box-sizing: border-box;
+    background: linear-gradient(120deg, darkgray, maroon);
+    font-family: 'Staatliches', cursive;
+    align-self: center;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 10% 22.5% 22.5% 22.5% 22.5%;
+    width: 70%;
+    height: 90%;
+    padding: 5%;
+    border: 3px outset antiquewhite;
+    border-radius: 30px;
+}
+
+#sound-bank-head-text {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    text-align: right;
+    font-size: 1.25em;
+    font-weight: bolder;
+    text-decoration-line: underline;
+}
+
+#sound-bank-button-1 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+#sound-bank-text-1 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    text-align: right;
+    font-size: 1.25em;
+}
+
+#sound-bank-button-2 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+#sound-bank-text-2 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    text-align: right;
+    font-size: 1.25em;
+}
+
+#sound-bank-button-3 {
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+
+#sound-bank-text-3 {
+    grid-column-start: 2;
+    grid-row-start: 4;
+    text-align: right;
+    font-size: 1.25em;
+}
+
+#sound-bank-button-4 {
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+
+#sound-bank-text-4 {
+    grid-column-start: 2;
+    grid-row-start: 5;
+    text-align: right;
+    font-size: 1.25em;
+}
+
+.grid-item-5-pads {
+    grid-column-start: 3;
+    grid-row: 2 / 4;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 23% 23% 23% 23%;
+    gap: 2%;
+}
+
+.drumpad {
+    background-color: maroon;
+    border: 5px groove red;
+    border-radius: 30px;
+    font-family: 'Staatliches', cursive;
+    font-size: 4em;
+    text-shadow: 4px 4px crimson;
+}
