@@ -18,6 +18,7 @@ body {
     border: 20px outset red;
     border-radius: 30px;
     background: linear-gradient(90deg, #98172e, black);
+    box-shadow: 9px 9px black;
 }
 
 .grid-item-1-logo {
@@ -38,7 +39,7 @@ body {
     grid-column-end: span 2;
     background-color: #ff9999;
     width: 85%;
-    height: 16vh;
+    height: 20vh;
     align-self: center;
     margin: 0 auto;
     text-align: center;

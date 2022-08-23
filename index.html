@@ -7,6 +7,7 @@
     <title>SIMON'S SAMPLER SS-808</title>
     <link rel="stylesheet" href="./styles.css" />
     <script src="script.js" defer></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Codystar&family=Monoton&family=Staatliches&display=swap');
@@ -16,7 +17,7 @@
 
 
 
-<body>
+<body id="body">
 <!--- divs within "border container" div --->
     <div class="border-container">
 
@@ -27,7 +28,17 @@
 
 
         <div class = "grid-item grid-item-2-display">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eos odio eaque porro tempora animi esse. Nisi quam ex non obcaecati enim ducimus error qui!</p>
+            <p id="display-text">>>>>>SIMON'S SAMPLER 808<<<<<
+            </br>
+            SELECT GAME MODE & SOUND BANK TO BEGIN    
+            </br>
+            HEADPHONES RECOMMENDED!!
+            </br>
+            </br>
+            (C)2022 KHAKI SUIT VALENTINO
+            </br>
+            >FOR INFO PRESS "N" / CREDITS "M"
+    </p>
         </div>
 
     
@@ -50,7 +61,7 @@
             <input type="radio" id="sound-bank-button-1"/>
             <p id="sound-bank-text-1">BANK 1</br>(HIP-HOP)</p>
             <input type="radio" id="sound-bank-button-2"/>
-            <p id="sound-bank-text-2">BANK 2</br>(HOUSE)</p>
+            <p id="sound-bank-text-2">BANK 2</br>(TECHNO)</p>
             <input type="radio" id="sound-bank-button-3"/>
             <p id="sound-bank-text-3">BANK 3</br>(REGGAETON)</p>
             <input type="radio" id="sound-bank-button-4"/>
@@ -59,22 +70,22 @@
 
     
         <div class = "grid-item grid-item-5-pads">
-            <button id="1" class="drumpad">1</button>
-            <button id="2" class="drumpad">2</button>
-            <button id="3" class="drumpad">3</button>
-            <button id="4" class="drumpad">4</button>
-            <button id="Q" class="drumpad">Q</button>
-            <button id="W" class="drumpad">W</button>
-            <button id="E" class="drumpad">E</button>
-            <button id="R" class="drumpad">R</button>
-            <button id="A" class="drumpad">A</button>
-            <button id="S" class="drumpad">S</button>
-            <button id="D" class="drumpad">D</button>
-            <button id="F" class="drumpad">F</button>
-            <button id="Z" class="drumpad">Z</button>
-            <button id="X" class="drumpad">X</button>
-            <button id="C" class="drumpad">C</button>
-            <button id="V" class="drumpad">V</button>
+            <button id="button1" class="drumpad">1</button>
+            <button id="button2" class="drumpad">2</button>
+            <button id="button3" class="drumpad">3</button>
+            <button id="button4" class="drumpad">4</button>
+            <button id="buttonQ" class="drumpad">Q</button>
+            <button id="buttonW" class="drumpad">W</button>
+            <button id="buttonE" class="drumpad">E</button>
+            <button id="buttonR" class="drumpad">R</button>
+            <button id="buttonA" class="drumpad">A</button>
+            <button id="buttonS" class="drumpad">S</button>
+            <button id="buttonD" class="drumpad">D</button>
+            <button id="buttonF" class="drumpad">F</button>
+            <button id="buttonZ" class="drumpad">Z</button>
+            <button id="buttonX" class="drumpad">X</button>
+            <button id="buttonC" class="drumpad">C</button>
+            <button id="buttonV" class="drumpad">V</button>
         </div>
     </div>
     
