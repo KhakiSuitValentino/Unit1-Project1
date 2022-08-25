@@ -26,7 +26,7 @@ body {
     grid-column-end: span 3;
     background: linear-gradient(90deg, darkgray, black);
     color: antiquewhite;
-    font-size: 1.15em;
+    font-size: 1.12vw;
     letter-spacing: 3px;
     text-align: center;
     text-shadow: 4px 4px crimson;
@@ -43,7 +43,8 @@ body {
     align-self: center;
     margin: 0 auto;
     text-align: center;
-    font-size: 1.25em;
+    padding-top: -0.5%;
+    font-size: 1.11vw;
     font-weight: bolder;
     border: 3px double black;
     border-radius: 30px;
@@ -71,7 +72,7 @@ body {
     grid-column-start: 2;
     grid-row-start: 1;
     text-align: right;
-    font-size: 1.25em;
+    font-size: 1.3vw;
     font-weight: bolder;
     text-decoration-line: underline;
 }
@@ -85,7 +86,7 @@ body {
     grid-column-start: 2;
     grid-row-start: 2;
     text-align: right;
-    font-size: 1.25em;
+    font-size: 1.3vw;
 }
 
 #game-mode-button-2 {
@@ -97,7 +98,7 @@ body {
     grid-column-start: 2;
     grid-row-start: 3;
     text-align: right;
-    font-size: 1.25em;
+    font-size: 1.3vw;
 }
 
 #game-mode-button-3 {
@@ -109,7 +110,7 @@ body {
     grid-column-start: 2;
     grid-row-start: 4;
     text-align: right;
-    font-size: 1.25em;
+    font-size: 1.3vw;
 }
 
 #game-mode-button-4 {
@@ -121,7 +122,7 @@ body {
     grid-column-start: 2;
     grid-row-start: 5;
     text-align: right;
-    font-size: 1.25em;
+    font-size: 1.3vw;
 }
 
 .grid-item-4-sound-bank {
@@ -146,7 +147,7 @@ body {
     grid-column-start: 2;
     grid-row-start: 1;
     text-align: right;
-    font-size: 1.25em;
+    font-size: 1.3vw;
     font-weight: bolder;
     text-decoration-line: underline;
 }
@@ -160,7 +161,7 @@ body {
     grid-column-start: 2;
     grid-row-start: 2;
     text-align: right;
-    font-size: 1.25em;
+    font-size: 1.3vw;
 }
 
 #sound-bank-button-2 {
@@ -172,7 +173,7 @@ body {
     grid-column-start: 2;
     grid-row-start: 3;
     text-align: right;
-    font-size: 1.25em;
+    font-size: 1.3vw;
 }
 
 #sound-bank-button-3 {
@@ -184,7 +185,7 @@ body {
     grid-column-start: 2;
     grid-row-start: 4;
     text-align: right;
-    font-size: 1.25em;
+    font-size: 1.3vw;
 }
 
 #sound-bank-button-4 {
@@ -196,7 +197,7 @@ body {
     grid-column-start: 2;
     grid-row-start: 5;
     text-align: right;
-    font-size: 1.25em;
+    font-size: 1.3vw;
 }
 
 .grid-item-5-pads {
@@ -213,6 +214,6 @@ body {
     border: 5px groove red;
     border-radius: 30px;
     font-family: 'Staatliches', cursive;
-    font-size: 4em;
+    font-size: 5vw;
     text-shadow: 4px 4px crimson;
 }
