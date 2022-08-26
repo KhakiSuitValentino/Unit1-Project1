@@ -541,7 +541,7 @@ function demoPlay() {
     document.getElementById("display-text").innerHTML = "<p>>>>DEMO MODE<<< </br></br>A DEMONSTRATION OF SS-808'S ABILITIES. </br> SIT BACK AND ENJOY.</p>";
     isUsersTurn = false;
     let count = -10;
-    let intervalId = setInterval(counter, 200);
+    let intervalId = setInterval(counter, 205);
     function counter() {
         (++count);
         //Intro:
@@ -663,7 +663,6 @@ function demoPlay() {
         if (count === 155) playButton ('Z');
         if (count === 156) playButton ('S');
         if (count === 156) playButton ('F');
-        if (count === 156) playButton ('W');
         if (count === 158) playButton ('C');
         //Bass Drop Measure 3:
         if (count === 160) playButton ('1');
@@ -789,6 +788,7 @@ function demoPlay() {
         if (count === 267) playButton ('Z');
         if (count === 268) playButton ('A');
         if (count === 268) playButton ('F');
+        //Outro 4 Real 2:
         if (count === 272) playButton ('1');
         if (count === 272) playButton ('3');
         if (count === 275) playButton ('Z');
@@ -802,7 +802,9 @@ function demoPlay() {
         if (count === 283) playButton ('Z');
         if (count === 284) playButton ('A');
         if (count === 284) playButton ('F');
+        if (count === 284) playButton ('V');
         if (count === 287) playButton ('R');
+        //Outro Really 4 Real:
         if (count === 288) playButton ('1');
         if (count === 288) playButton ('3');
         if (count === 291) playButton ('Z');
