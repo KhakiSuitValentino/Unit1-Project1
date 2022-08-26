@@ -709,7 +709,7 @@ function demoPlay() {
         if (count === 194) playButton ('C');
         if (count === 196) playButton ('D');
         if (count === 198) playButton ('C');
-        if (count === 198) playButton ('E');
+        if (count === 198) playButton ('Q');
         if (count === 200) playButton ('2');
         if (count === 200) playButton ('4');
         if (count === 202) playButton ('C');
@@ -766,7 +766,7 @@ function demoPlay() {
         if (count === 244) playButton ('X');
         if (count === 245) playButton ('Z');
         if (count === 246) playButton ('D');
-        if (count === 246) playButton ('E');
+        if (count === 246) playButton ('Q');
         if (count === 247) playButton ('A');
         if (count === 248) playButton ('2');
         if (count === 248) playButton ('4');
@@ -783,7 +783,7 @@ function demoPlay() {
         if (count === 259) playButton ('Z');
         if (count === 260) playButton ('A');
         if (count === 261) playButton ('C');
-        if (count === 262) playButton ('Z');
+        if (count === 262) playButton ('Q');
         if (count === 264) playButton ('2');
         if (count === 264) playButton ('4');
         if (count === 267) playButton ('Z');
@@ -794,7 +794,8 @@ function demoPlay() {
         if (count === 275) playButton ('Z');
         if (count === 276) playButton ('A');
         if (count === 277) playButton ('C');
-        if (count === 278) playButton ('Z');
+        if (count === 278) playButton ('Q');
+        if (count === 279) playButton ('Z');
         if (count === 280) playButton ('2');
         if (count === 280) playButton ('4');
         if (count === 282) playButton ('C');
