@@ -1,5 +1,8 @@
 ***Drum Machine Simon Says***
 
+Link to Deployment: https://khakisuitvalentino.github.io/Unit1-Project1/
+
+
 Pitch: 
 
 -In the fashion of Akai MPC style drum machines, create a "Simon Says" style game using a four column, four row grid.
@@ -46,3 +49,12 @@ Stretch Goals:
 
 -A UI highly stylized after a real drum machine such as an MPC 2000 or SP-404
 
+
+Post-Project Reflection:
+
+-Unsolved Problems: Still trying to figure out how to get JavaScript to detect simultaneous inputs in arrays. With drum pad machines, it can be advantageous to press buttons simultaneously (see Demo loop for an example). However, in the game mode, an array is used to compare the user's input against the correct input iterated by the computer. I have not yet found a technique to record two inputs simultaneously in one node of an array.
+
+-Growth Areas: This is the first project I have completed. I have learned more from developing this program than I have in all of my days of class combined.
+
+
+Sources Used: I relied heavily on w3Schools, Stack Overflow, and various YouTube tutorials to help me write my code. I also extend a special thanks to my brother Brandon, who is a career software developer, for assisting me in troubleshooting bugs and optimizing code.
