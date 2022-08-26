@@ -89,7 +89,8 @@ function getMoreInfoPressM(){
 
 //player returns to homescreen from credits "M" or info "N"; also used to bring player home in other circumstances
 function getMoreInfoPressH(){
-    lisUsersTurn = false;
+    isUsersTurn = false;
+    gameStarted = false
     document.getElementById("display-text").innerHTML = "<p> >>>>>SIMON'S SAMPLER 808<<<<< </br> PRESS SPACEBAR TO BEGIN GAME </br> HEADPHONES RECOMMENDED!! </br> </br> (C) 2022 KHAKI SUIT VALENTINO </br> >FOR INFO PRESS 'N' / CREDITS 'M' / DEMO 'O'</p>";
 }
 
