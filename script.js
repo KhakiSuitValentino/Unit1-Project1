@@ -536,6 +536,7 @@ function gameRound10Sequence() {
 
 //Demo mode: Cool pattern for user to observe, hopefully to find some inspiration in their freestyling with SS-808.
 function demoPlay() {
+    gameStarted = true;
     document.getElementById("display-text").innerHTML = "<p>>>>DEMO MODE<<< </br></br>A DEMONSTRATION OF SS-808'S ABILITIES. </br> SIT BACK AND ENJOY.</p>";
     isUsersTurn = false;
     let count = -10;
