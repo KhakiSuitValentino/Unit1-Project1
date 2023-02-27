@@ -1,43 +1,62 @@
 html, body {
-    background-color: slategray;
+    background-color: rgb(51, 0, 51);
     min-height: 100%;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
+/* body {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+} */
 
 .border-container {
+    position: relative;
+}
+
+.border-container::before {
+    content: "";
+    top: 0; left: 0;
     box-sizing: border-box;
-    width: 95%;
-    height: 95%;
+    width: 99%;
+    height: 99%;
+    position: absolute;
+    align-self: center;
+    background: url(./graphics/bouquet.jpg);
+    background-size: 95%;
+    filter: grayscale(25%);
+    opacity: 0.75;
+}
+
+.border-container-inside {
     display: grid;
     grid-template-columns: 1fr 1fr 3fr;
-    grid-template-rows: 5vh 25vh 44vh;
-    border: 20px outset red;
+    grid-template-rows: 4vh 25vh 44vh;
+    position: relative;
+    border: 20px outset rgb(176, 96, 225);
     border-radius: 30px;
-    background: linear-gradient(90deg, #98172e, black);
-    box-shadow: 9px 9px black;
+    box-shadow: 20px 20px rgb(94, 31, 109);
 }
 
 .grid-item-1-logo {
-    font-family: 'Monoton', cursive;
-    grid-column-end: span 3;
-    background: linear-gradient(90deg, darkgray, black);
+    font-family: "Pinyon Script", cursive;
+    grid-row: 1;
+    grid-column-end: span 2;
     color: antiquewhite;
-    font-size: 1vw;
-    letter-spacing: 3px;
-    text-align: center;
-    text-shadow: 4px 4px crimson;
-    width: 100%;
+    font-size: 3.9vh;
+    letter-spacing: 3.5px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 95%;
+    width: auto;
+    padding-top: 1.8vh;
 }
 
 .grid-item-2-display {
     font-family: 'Codystar', cursive;
     box-sizing: border-box;
     grid-column-end: span 2;
-    background-color: #ff9999;
+    background-color: #fda7f0;
     width: 85%;
     height: 20vh;
     align-self: center;
@@ -53,8 +72,8 @@ body {
 .grid-item-3-game-mode {
     grid-column: 1 / 2;
     box-sizing: border-box;
-    background: linear-gradient(120deg, darkgray, maroon);
-    font-family: 'Staatliches', cursive;
+    background: linear-gradient(120deg, darkgray, rgb(128, 0, 111));
+    font-family: 'Marcellus', serif;
     text-align: right;
     align-self: center;
     margin: 0 auto;
@@ -129,8 +148,8 @@ body {
     grid-column: 2 / 3;
     position: relative;
     box-sizing: border-box;
-    background: linear-gradient(120deg, darkgray, maroon);
-    font-family: 'Staatliches', cursive;
+    background: linear-gradient(120deg, darkgray, rgb(128, 0, 111));
+    font-family: 'Marcellus', serif;
     align-self: center;
     margin: 0 auto;
     display: grid;
@@ -210,10 +229,11 @@ body {
 }
 
 .drumpad {
-    background-color: maroon;
-    border: 5px groove red;
+    background-color: rgb(40, 0, 59);
+    border: 5px groove rgb(141, 7, 114);
     border-radius: 30px;
-    font-family: 'Staatliches', cursive;
+    font-family: 'Marcellus', serif;
     font-size: 5vw;
-    text-shadow: 4px 4px crimson;
+    opacity: 0.8;
+    text-shadow: 4px 4px rgb(255, 190, 244);
 }

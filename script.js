@@ -1,5 +1,9 @@
 //Level 1: On Boot Options, informational text, credits
 
+//file-saver NPM package
+import { saveAs } from 'file-saver';
+const FileSaver = require('file-saver');
+
 //load in buttons
 let btnZ = document.getElementById("buttonZ");
 let btnX = document.getElementById("buttonX");
