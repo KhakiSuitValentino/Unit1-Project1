@@ -42,30 +42,31 @@ html, body {
     grid-row: 1;
     grid-column-end: span 2;
     color: antiquewhite;
-    font-size: 3.9vh;
+    font-size: 2.5vw;
     letter-spacing: 3.5px;
     display: grid;
     justify-content: center;
     align-content: center;
-    height: 95%;
+    height: 97%;
     width: auto;
-    padding-top: 1.8vh;
+    padding-top: 1.6vh;
 }
 
 .grid-item-2-display {
     font-family: 'Codystar', cursive;
     box-sizing: border-box;
     grid-column-end: span 2;
-    background-color: #fda7f0;
+    background-color: #260121;
     width: 85%;
     height: 20vh;
     align-self: center;
     margin: 0 auto;
-    text-align: center;
+    text-align: justify;
     padding-top: -0.5%;
-    font-size: 1.11vw;
+    font-size: 0.38vw;
+    color:rgb(255, 190, 244);
     font-weight: bolder;
-    border: 3px double black;
+    border: 3px double rgb(187, 13, 152);
     border-radius: 30px;
 }
 
